@@ -13,6 +13,7 @@ class Table extends React.Component {
             <th>Status</th>
           </tr>
         </thead>
+        
         <tbody>
           {characters.map((char) => (
             <tr key={ char.name }>
